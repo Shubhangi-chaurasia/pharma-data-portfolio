@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+.env*
+
+# macOS & editor
+.DS_Store
+.vscode/
+
+# Data & reports (keep small samples only)
+data/raw/
+reports/
+!reports/README.md
+
+# BI files (Power BI is Windows; Tableau workbooks are .twb or .twbx)
+*.pbix
+*.twbx
